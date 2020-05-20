@@ -1,3 +1,9 @@
+var mongoURI =""
+if (typeof(process.env.PORT) === 'undefined'){
+  mongoURI = "mongodb://localhost:27017/shoppingList"
+}else{
+  mongoURI = process.env.DB
+}
 module.exports = {
-    mongoURI: "mongodb://127.0.0.1:27017/shoppingList"
+    mongoURI: mongoURI 
 }
