@@ -8,7 +8,7 @@ import ItemModal from "./components/itemModal"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-import itemModal from './components/itemModal';
+
 
 class App extends Component{
   render(){
